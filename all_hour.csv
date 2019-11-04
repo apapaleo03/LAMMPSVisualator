@@ -1,0 +1,6 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2019-11-04T16:48:52.740Z,35.9156667,-117.7308333,8.32,1.68,ml,26,38,0.07279,0.14,ci,ci38931775,2019-11-04T16:52:37.795Z,"16km E of Little Lake, CA",earthquake,0.21,0.54,0.195,25,automatic,ci,ci
+2019-11-04T16:25:24.578Z,-2.8001,127.825,20.12,4.7,mb,,86,3.577,0.8,us,us700062x1,2019-11-04T16:46:04.040Z,"50km NW of Piru, Indonesia",earthquake,7.8,2.1,0.098,32,reviewed,us,us
+2019-11-04T16:13:54.280Z,39.4107,-119.7775,0.2,1.4,ml,9,80.97,0.214,0.24,nn,nn00709492,2019-11-04T16:49:51.118Z,"13km SSE of Reno, Nevada",earthquake,,17.6,,,automatic,nn,nn
+2019-11-04T16:06:50.962Z,61.3437,-150.1228,35,1.4,ml,,,,0.35,ak,ak019e5n3802,2019-11-04T16:13:33.958Z,"18km NW of Anchorage, Alaska",earthquake,,0.2,,,automatic,ak,ak
+2019-11-04T16:03:44.860Z,38.7926674,-122.7731705,-0.84,2.28,md,22,76,0.02308,0.15,nc,nc73300670,2019-11-04T16:09:04.438Z,"2km NW of The Geysers, CA",earthquake,0.27,1.1,0.22,17,automatic,nc,nc
