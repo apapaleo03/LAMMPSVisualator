@@ -137,18 +137,18 @@ class Widget(QWidget):
 
         # Creating QChart
 
-        #self.chart = QtCharts.QChart()
+        self.chart = QtCharts.QChart()
 
-        #self.chart.setAnimationOptions(QtCharts.QChart.AllAnimations)
+        self.chart.setAnimationOptions(QtCharts.QChart.AllAnimations)
 
-        #self.add_series("Magnitude (Column 1)", [0, 1])
+        self.add_series("Magnitude (Column 1)", [0, 1])
 
 
         # Creating QChartView
 
-        #self.chart_view = QtCharts.QChartView(self.chart)
+        self.chart_view = QtCharts.QChartView(self.chart)
 
-        #self.chart_view.setRenderHint(QPainter.Antialiasing)
+        self.chart_view.setRenderHint(QPainter.Antialiasing)
 
 
         # QWidget Layout
@@ -171,9 +171,9 @@ class Widget(QWidget):
 
         size.setHorizontalStretch(4)
 
-        #self.chart_view.setSizePolicy(size)
+        self.chart_view.setSizePolicy(size)
 
-        #self.main_layout.addWidget(self.chart_view)
+        self.main_layout.addWidget(self.chart_view)
 
 
         # Set the layout to the QWidget
@@ -330,7 +330,7 @@ class MainWindow(QMainWindow):
 
         geometry = app.desktop().availableGeometry(self)
 
-        self.setFixedSize(geometry.width() * 0.8, geometry.height() * 0.7)
+        #self.setFixedSize(geometry.width() * 0.8, geometry.height() * 0.7)
 
         self.setCentralWidget(widget)
 
